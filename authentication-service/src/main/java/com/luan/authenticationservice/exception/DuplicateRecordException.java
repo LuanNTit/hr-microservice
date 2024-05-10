@@ -1,4 +1,4 @@
-package com.luan.hrmanagementsystem.exception;
+package com.luan.authenticationservice.exception;
 
 public class DuplicateRecordException extends RuntimeException{
     public DuplicateRecordException(String message) {

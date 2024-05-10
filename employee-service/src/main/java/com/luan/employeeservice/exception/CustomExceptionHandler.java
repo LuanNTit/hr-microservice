@@ -29,7 +29,7 @@ public class CustomExceptionHandler {
     @ResponseStatus(HttpStatus.INTERNAL_SERVER_ERROR)
     public ErrorResponse handlerException(Exception ex, WebRequest req) {
         // Log err
-        logger.error("Exception");
+         logger.error("Exception");
         return new ErrorResponse(HttpStatus.INTERNAL_SERVER_ERROR, ex.getMessage());
     }
 }
